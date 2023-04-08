@@ -11,7 +11,7 @@ export const Blog = ({ title, coverImage, brief, slug, dateAdded }) => {
           <h3>{title}</h3>
           <p>{brief}</p>
           <a
-            href={`https://devxvaibhav.hashnode.dev/${slug}`}
+            href={`https://vaibhavwrites.hashnode.dev/${slug}`}
             target="_blank"
             rel="noreferrer"
             aria-label="Read More"
