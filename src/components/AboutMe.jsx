@@ -49,9 +49,9 @@ export const AboutMe = () => {
           </ul>
         </div>
       </div>
-      <div className="about-hobbies">
+      {/* <div className="about-hobbies">
         <h2>🎮 Hobbies:</h2>
-      </div>
+      </div> */}
     </div>
   );
 };
