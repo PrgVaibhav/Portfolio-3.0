@@ -4,7 +4,7 @@ import { CgArrowTopRight } from "react-icons/cg";
 import { CiTwitter } from "react-icons/ci";
 import { RxInstagramLogo } from "react-icons/rx";
 import { AiOutlineLinkedin, AiOutlineYoutube } from "react-icons/ai";
-import { SiHashnode, SiFiverr } from "react-icons/si";
+import { SiHashnode } from "react-icons/si";
 import { BsMailbox } from "react-icons/bs";
 import { TbBrandFiverr } from "react-icons/tb";
 

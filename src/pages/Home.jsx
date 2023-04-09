@@ -5,6 +5,7 @@ import { Freelancing } from "../components/Freelancing";
 import { Projects } from "../components/Projects";
 import { Socials } from "../components/Socials";
 import { useEffect, useState } from "react";
+import { Updates } from "../components/Updates";
 export const Home = () => {
   return (
     <div className="home-container">
@@ -15,6 +16,7 @@ export const Home = () => {
       <Experience />
       <Freelancing />
       <Projects />
+      <Updates />
       <Socials />
     </div>
   );

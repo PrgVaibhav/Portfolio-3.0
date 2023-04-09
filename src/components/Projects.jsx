@@ -1,6 +1,5 @@
 import "../styles/Projects.scss";
 import { CgArrowTopRight } from "react-icons/cg";
-import { Link } from "react-router-dom";
 import { ProjectData } from "../data/ProjectData";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";

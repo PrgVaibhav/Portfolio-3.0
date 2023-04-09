@@ -1,4 +1,4 @@
-.freelancing-container {
+.updates-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -8,6 +8,7 @@
   padding: 12px 10px;
   box-shadow: 5px 8px 0px var(--Soft-Red);
   transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
   &:hover {
     box-shadow: 3px 5px 0px var(--Soft-Red);
   }
