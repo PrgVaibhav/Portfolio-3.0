@@ -4,6 +4,10 @@ import { ProjectData } from "../data/ProjectData";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 export const Projects = () => {
+  const linkClickHandler = () => {
+    const audio = new Audio("/src/audio/clicking.mp3");
+    audio.play();
+  };
   return (
     <div className="projects-container">
       <h2>Projects</h2>
@@ -50,7 +54,12 @@ export const Projects = () => {
               <p>{project.description}</p>
               {project.liveLink && (
                 <div className="links">
-                  <a href={project.liveLink} target="_blank" rel="noreferrer">
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={linkClickHandler}
+                  >
                     Live Preview <CgArrowTopRight className="arrow" />
                   </a>
                   <a href={project.gitHubLink} target="_blank" rel="noreferrer">

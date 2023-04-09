@@ -56,6 +56,11 @@
           padding: 2px 4px;
           letter-spacing: 1px;
           border-radius: 4px;
+          transition: all 350ms linear;
+          &:hover {
+            background-color: var(--Soft-Red);
+            color: #fff;
+          }
         }
       }
 

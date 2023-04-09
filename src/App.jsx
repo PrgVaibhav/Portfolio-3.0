@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Blogs } from "./pages/Blogs";
 import { Update } from "./pages/Update";
+import { Error } from "./pages/Error";
 function App() {
   return (
     <div className="App" id="main">
@@ -14,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/update" element={<Update />} />
-          <Route path="*" element={<h1>This Page Doesn't Exist Yet</h1>} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>
